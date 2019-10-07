@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="DownLoad"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:id="@+id/downLoadBtn"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="pause"
+        android:id="@+id/pauseBtn"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:id="@+id/cancelBtn"
+        android:text="cancel"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</LinearLayout>
